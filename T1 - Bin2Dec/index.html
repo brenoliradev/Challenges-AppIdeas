@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/specimen/Hahmlet" rel="stylesheet" type="text/css">
+    <title>Bin2Dec</title>
+    <script type="text/javascript" src="bin2dec.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <input id="bin" type="text" placeholder="Input your binary number:" required>
+        <p id="dectext">Your decimal number is:</p>
+        <p id="dec" onchange="bin2dec()">0</p>
+        <input id="decinp" type="button" value="Convert it!" onclick="bin2dec()">
+    </div>
+</body>
+</html>
