@@ -14,14 +14,4 @@ function bin2dec() {
     }
 }
 
-// Add a "switch" to make the conversor show letters instead; with =>
-// var newBin = str.split(" ");
-// var binCode = [];
-
-// for (i = 0; i < newBin.length; i++) {
-//     binCode.push(String.fromCharCode(parseInt(newBin[i], 2)));
-//   }
-// return binCode.join("");
-// }
-
 
