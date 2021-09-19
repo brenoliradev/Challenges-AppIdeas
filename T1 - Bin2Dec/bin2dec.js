@@ -13,5 +13,3 @@ function bin2dec() {
     alert("Invalid number!");
     }
 }
-
-
